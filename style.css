@@ -1,0 +1,363 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.body{
+    font-family: sans-serif;
+}
+/*--------------------- header styling ---------------------*/
+.header{
+    width: 100%;
+    height: 92px;
+    background-color: #ffff;
+}
+.header .logo{
+    padding-right: 100px;
+}
+.header .logo img{
+    width: 180px;
+    height: 55px;
+    cursor: pointer
+}
+.sign-in a{
+    text-decoration: none;
+    color: white;
+}
+.sign-in img{
+    margin-right: 3px;
+}
+.sign-in{
+    background: #00baf2;
+    padding: 2px 2px 2px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    width: 114px;
+    height: 38px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 150px max-content max-content max-content max-content max-content 150px ;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ---------------------bottom header--------------------- */
+.bottom-header{
+    height: 40px;
+    background: #f6f6f6;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#f6f6f6, white, #f6f6f6);
+    padding-right: 5px;
+    font-size: 15px;
+    color: #000;
+}
+/* ---------------------section1 ---------------------*/
+.section1{
+    width: 100%;
+    height: 683px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.sec-1-content{
+    margin-left: 50px;
+    /* margin-top: 110px; */
+}
+.section1 .sec-1-content .logo img{
+    width: 75px;
+    box-shadow: 0 10px 20px 5px rgb(0 1 100 / 10%);
+    margin-bottom: 48px;
+    border-radius: 15px;
+}
+.section1 .sec-1-content .heading h1{
+    font-size: 54px;
+    line-height: 65px
+}
+.section1 .sec-1-content .para {
+    padding-top: 24px;
+    width: 475px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom:35px;
+    /* font-weight: 500; */
+}
+.section1 .button button{
+    font-family: 'Times New Roman', Times, serif;
+    height: 42px;
+    width: 220px;
+    background-color: #000;
+    color: white;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 14px;
+}
+.section1 .button button:hover{
+    background-color: white;
+    color: #000;
+}
+/* --------------------section main image--------------------- */
+.section1 .sec-1-img img{
+    width: 470px;
+    height: 480px;
+}
+/* ----------------------section tow---------------------- */
+.section2{
+    width: 100%;
+    height: 347px;
+    background-color: #00baf2;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.section2 .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.section2 .sec-2-heading {
+    padding-top:60px;
+    margin-left: 55px;
+}
+.section2 .box1{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.section2 .main .box1 .img img{
+    width: 62px;
+}
+.section2 .main .box1 .list li{
+    line-height: 1.4;
+    list-style-type: none;
+}
+.section2 .main .box1 .list{
+    margin-top: 30px;
+}
+/* ------------------------section3------------------------ */
+.section3{
+    width: 100%;
+    height: 317px;
+    background-color: #0f4a8a;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+}
+.section3 .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.section3 .sec-3-heading {
+    padding-top:60px;
+    margin-left: 55px;
+}
+.section3 .box1{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.section3 .main .box1 .img img{
+    width: 62px;
+}
+.section3 .main .box1 .list li{
+    line-height: 1.4;
+    list-style-type: none;
+}
+.section3 .main .box1 .list{
+    margin-top: 30px;
+}
+/* --------------------------section4-------------------------- */
+.section4{
+    height: auto;
+    width: 100%;
+    background-color: #f5f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.section4 .heading{
+    padding-bottom: 30px;
+}
+.section4 .sec4-1{
+    height:700px;
+    width: 93% ;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+    padding: 80px 50px 80px 115px;
+}
+
+.section4 .content .logo img{
+    width: 75px;
+    /* box-shadow: 0 10px 20px 5px rgb(0 1 100 / 10%); */
+    margin-bottom: 48px;
+    border-radius: 15px;
+}
+.section4 .content .heading h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+.section4 .content .para {
+    /* margin-top: 5px; */
+    /* width: 400px; */
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom:25px;
+    font-weight: 500;
+    padding: 0px 0 0px;
+}
+.section4 .button button{
+    font-family: 'Times New Roman', Times, serif;
+    height: 42px;
+    width: 220px;
+    background-color: #000;
+    color: white;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 14px;
+
+}
+.section4 .button button:hover{
+    background-color: white;
+    color: #000;
+}
+/* --------------------section main image--------------------- */
+.section4 .image img{
+    width: 539px;
+    height: 460px;
+}
+
+/* -------------------------------section4-sec2------------------------------------------ */
+.section4 .sec4-2{
+    height:700px;
+    width: 93% ;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+    padding: 80px 50px 80px 115px;
+    margin-top: 40px;
+}
+
+.section4 .content .logo img{
+    width: 75px;
+    /* box-shadow: 0 10px 20px 5px rgb(0 1 100 / 10%); */
+    margin-bottom: 48px;
+    border-radius: 15px;
+}
+.section4 .content .heading h1{
+    font-size: 35px;
+    line-height: 40px;
+    width: 450px;
+}
+.section4 .content .para {
+    /* margin-top: 5px; */
+    /* width: 400px; */
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom:25px;
+    font-weight: 500;
+    padding: 0px 0 0px;
+}
+.section4 .button button{
+    font-family: 'Times New Roman', Times, serif;
+    height: 42px;
+    width: 220px;
+    background-color: #000;
+    color: white;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 14px;
+
+}
+.section4 .button button:hover{
+    background-color: white;
+    color: #000;
+}
+/* --------------------section main image--------------------- */
+.section4 .image img{
+    width: 459px;
+    height: 400px;
+}
+/* -------------------------------section4-sec3------------------------------------------ */
+.section4 .sec4-3{
+    height:700px;
+    width: 93% ;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+    padding: 80px 50px 80px 115px;
+    margin-top: 40px;
+}
+
+.section4 .content .logo img{
+    width: 145px;
+    /* box-shadow: 0 10px 20px 5px rgb(0 1 100 / 10%); */
+    margin-bottom: 48px;
+    border-radius: 15px;
+}
+.section4 .content .heading h1{
+    font-size: 35px;
+    line-height: 40px;
+    width: 450px;
+}
+.section4 .content .para {
+    /* margin-top: 5px; */
+    width: 400px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom:25px;
+    font-weight: 500;
+    padding: 0px 0 0px;
+}
+.section4 .button button{
+    font-family: 'Times New Roman', Times, serif;
+    height: 49px;
+    width: 152px;
+    background-color:rgb(3, 3, 77);
+    color: white;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 14px;
+
+}
+.section4 .button button:hover{
+    background-color: #002970;
+    color: #fff;
+}
+/* --------------------section main image--------------------- */
+.section4 .image img{
+    width: 433px;
+    height: 500px;
+}
+
